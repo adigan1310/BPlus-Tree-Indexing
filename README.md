@@ -10,16 +10,14 @@ This program performs the following operations:
 
 4. List n records: Looks for the record's position in the file and lists n records from that record position. If the record is not found,      it finds the next record position and lists from that position.
 
-Compiling the program:
-
-Enter the following command to compile the program: javac index.java
+Compiling the program: javac index.java
 
 Sample Scripts for running the program:
 
-Creation: index -create <datafile> <indexfilename> <keysize>
+Creation: index -create datafile indexfilename keysize
   
-Insertion: index -insert <indexfilename> "<key and data to be inserted>"
+Insertion: index -insert indexfilename "key and data to be inserted"
   
-Search: index -find <indexfilename> <key>
+Search: index -find indexfilename key
   
-List: index -list <indexfilename> <key> <numberofrecords>
+List: index -list indexfilename key numberofrecords
