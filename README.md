@@ -1,4 +1,4 @@
-# B-Tree-Indexing
+# BPlus-Tree-Indexing
 Implementation of B+ Tree Indexing of a file using memory blocks
 
 This program performs the following operations:
